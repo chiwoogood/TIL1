@@ -328,3 +328,27 @@
 # new_lst = quick_sort(lst1)
 # print(new_lst)
 
+
+
+#이진탐색
+def binary_search(array, target):
+    start, end = 0, len(array) -1
+    mid = (start + end) // 2
+    while(start<=end):
+        if array[mid] == target:
+            return mid
+        elif array[mid] < target:
+            start = mid + 1
+        elif array[mid] > target:
+            end = mid -1
+    return -1
+
+
+#for else문
+# n = int(input())
+# while(n > 0):
+#     if n == -1:
+#         print('hello')
+#     n -= 1
+# else:
+#     print('여기에 없는데용')
