@@ -187,10 +187,99 @@
 #         print(answer)
 
 # 복사 + 리스트를 수정하면서 순회 + pop, append 동시에 사용
-lst = list(input())
+# lst = list(input())
 
-for i in lst[:]:
-    if i.isalpha() == False:
-        lst.append(lst.pop(lst.index(i)))
+# for i in lst[:]:
+#     if i.isalpha() == False:
+#         lst.append(lst.pop(lst.index(i)))
 
-print(lst)
+# print(lst)
+
+
+# n = input()
+# sum = 0
+# for i in n:
+#     sum += int(i)
+# def sort(n):
+#     for i in range(len(n)):
+#         max_idx = i
+#         for j in range(i+1,range(len(n))):
+#             if n[max_idx] < n[j]:
+#                 max_idx = j
+#             n[i], n[max_idx] = n[max_idx], n[i]
+    
+#     return n
+# if sum % 3 != 0:
+#     print(-1)
+# else:
+#     n = sort(list(n))
+
+# for i in n:
+#     print(i,end="")
+
+# words = ['hi', 'hello', 'kimchi']
+# words = "".join(words)
+# print(words)
+
+
+#2587
+# lst = []
+# for i in range(5):
+#     lst.append(int(input()))
+# print(sum(lst)//len(lst))
+# if 
+
+
+#1744
+
+# n = int(input())
+# sum = 0
+
+# lst = []
+# for i in range(n):
+#     lst.append(int(input()))
+
+# def sort_value(lst):
+#     for i in range(len(lst)):
+#         max_idx = i
+#         for j in range(i+1,len(lst)):
+#             if lst[max_idx] < lst[j]:
+#                 max_idx = j
+#         lst[i], lst[max_idx] = lst[max_idx], lst[i]
+#     return lst
+
+# new_lst = sort_value(lst)
+
+# for i in range(len(new_lst)):
+#     if i % 2 == 0:
+#         new_lst[i]
+
+# n = int(input())
+# lst = []
+
+# for i in range(2, n + 1):
+#     is_prime = True
+
+#     for j in range(2, int(i**0.5) + 1):
+#         if i % j == 0:
+#             is_prime = False
+#             break
+
+#     if is_prime:
+#         lst.append(i)
+
+# print(lst)
+
+#삽입정렬
+# n = list(map(int,input().split()))
+
+# for i in range(len(n)):
+#     min_idx = i
+#     for j in range(i+1,len(n)):
+#         if n[min_idx] > n[j]:
+#             min_idx = j # 작은 인덱스에다 j값을 삽입 
+#     n[i], n[min_idx] = n[min_idx], n[i]
+# print(n)
+
+
+#퀵정렬
