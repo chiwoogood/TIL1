@@ -390,3 +390,18 @@ def binary_search(array, target):
 #     return lst
 
 # print(sort_value(lst))
+
+# 2609
+#최대 공약수
+#최소 공배수
+
+# A , B = map(int,input().split())
+# A , B = (B , A) if B > A else (A , B)
+
+# lst = []
+
+# for i in range(2,B+1):
+#     if A % i == 0 and B % i == 0:
+#         lst.append(i)
+
+# print(max(lst), A*B // max(lst))
