@@ -352,3 +352,41 @@ def binary_search(array, target):
 #     n -= 1
 # else:
 #     print('여기에 없는데용')
+
+
+#10814
+# n = int(input())
+
+# dic = dict()
+# for i in range(n):
+#     key, value = input().split()
+#     dic[int(key)] = value
+
+# def quick_sort(lst):
+#     if len(lst)<=1:
+#         return lst
+    
+#     pivot = lst[len(lst) // 2]
+
+#     start = [x for x in lst if x < pivot]
+#     middle = [x for x in lst if x == pivot]
+#     end = [x for x in lst if x > pivot]
+
+#     return quick_sort(start) + middle + quick_sort(end)
+
+# print(quick_sort([1,5,2,6,5]))
+
+# n = int(input())
+# lst = [list(input().split()) for _ in range(n)]
+
+# def sort_value(lst):
+#     for i in range(len(lst)):
+#         min_idx = i
+#         for j in range(i+1,len(lst)):
+#             if int(lst[min_idx][0]) > int(lst[j][0]):
+#                 min_idx = j
+#     lst[i], lst[min_idx] = lst[min_idx], lst[i]
+    
+#     return lst
+
+# print(sort_value(lst))
