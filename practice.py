@@ -405,3 +405,70 @@ def binary_search(array, target):
 #         lst.append(i)
 
 # print(max(lst), A*B // max(lst))
+
+# A , B = map(int,input().split())
+# A , B = (B , A) if B > A else (A, B)
+# lst = [i for i in range(2,B+1) if A % i == 0 and B % i == 0]
+# print(max(lst), (A*B)/max(lst))
+
+# 1934
+# n = int(input())
+# def cal(A,B):
+#     lst = []
+#     A , B = (B , A) if B < A else (A, B)
+#     for i in range(1,B+1):
+#         if A % i == 0 and B % i == 0:
+#             lst.append(i)
+#     return max(lst)
+# for i in range(n):
+#     A, B = map(int,input().split())
+#     print(A*B // cal(A,B))
+
+#1850
+
+# A, B = map(int,input().split())
+# A , B = (B, A) if A > B else (A , B)
+# lst = []
+# if (B - A) % A == 0:
+#     for _ in range(A):
+#         print(1,end='')
+# else:
+#     for _ in range(B-A):
+#         print(1,end='')
+
+
+#2942 유클리드
+# a, b =map(int,input().split())
+# i = 1
+# while(True):
+#     if a % i == 0 and b % i == 0:
+#         print(i,a//i,b//i )
+#     i += 1
+#     if i > b or i > a:
+#         break
+
+# def uclid(a,b):
+#     while b:
+#         a, b = b, a %b
+#     return a
+
+# print(uclid(18,48))
+
+#9613
+# n = int(input())
+# for i in range(n):
+    
+# m, n = map(float,input().split())
+
+# c, d = map(bool, map(int,input().split()))
+
+
+# print(True) if c != d else print(False)
+
+while True:
+    user_input = input()
+    if user_input != 'q':
+        print(user_input)
+    else:
+        print(user_input)
+        break
