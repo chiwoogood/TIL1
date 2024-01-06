@@ -465,10 +465,93 @@ def binary_search(array, target):
 
 # print(True) if c != d else print(False)
 
-while True:
-    user_input = input()
-    if user_input != 'q':
-        print(user_input)
-    else:
-        print(user_input)
-        break
+# while True:
+#     user_input = input()
+#     if user_input != 'q':
+#         print(user_input)
+#     else:
+#         print(user_input)
+#         break
+
+
+#코드업
+# pasta_lst = [int(input()) for _ in range(3)]
+# drink_lst = [int(input()) for _ in range(2)]
+# print(f'{(min(pasta_lst)+ min(drink_lst)) * 1.1:.1f}')
+
+
+# dic = dict({1:1,2:2,3:3,4:2,5:1,6:2,7:3,8:3,9:2})
+
+# a, b = map(int,input().split())
+# def cal(a,b):
+#     count = 0
+#     if a - b == 0:
+#         return 0
+#     a , b = (b, a) if a > b else (a,b)
+#     while b - a > 10:
+#         b -= 10
+#         count += 1
+    
+#     if a - b == 0:
+#         return count
+#     count += dic[b-a]
+#     return count
+
+# print(cal(a,b))
+
+# pasta_price = [int(input()) for _ in range(3)]
+# drink_price = [int(input()) for _ in range(2)]
+
+# print(f'{((min(pasta_price) + min(drink_price)) *1.1):.1f}')
+
+# a, b = map(int,input().split())
+# dic = dict({1:1,2:2,3:3,4:2,5:1,6:2,7:3,8:3,9:2,10:1})
+
+# def control(a,b):
+#     count = 0
+#     a, b = (b, a) if a > b else (a, b)
+#     if a == b : return 0
+#     while b - a > 10:
+#         a += 10
+#         count += 1
+#     count += dic[b-a]
+#     return count
+
+# print(control(a,b))
+
+# lst = [50000,10000,5000,1000,500,100,50,10]
+# count = 0
+# n = int(input())
+
+# for i in lst:
+#     if n >= i:
+#         count += n // i
+#         n %= i
+
+# print(count)
+
+# topping_count = int(input())
+
+# dow_price, topping_price = map(int,input().split())
+
+# dow_cal = int(input())
+
+# topping_cal_lst = [int(input()) for _ in range(topping_count)]
+
+# def quick_sort(lst):
+#     if len(lst) == 0:
+#         return lst
+    
+#     pivot = lst[len(lst)//2]
+#     start = [x for x in lst if x > pivot]
+#     middle = [x for x in lst if x == pivot]
+#     end = [x for x in lst if x < pivot]
+
+#     return quick_sort(start) + middle + quick_sort(end)
+
+# new_topping_cal_lst = quick_sort(topping_cal_lst)
+
+# for i in range(len(new_topping_cal_lst)):
+#     pizza_total_price = (i+1) * topping_price + dow_price
+#     pizaa_total_cal = dow_cal + new_topping_cal_lst[i]
+
