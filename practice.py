@@ -555,3 +555,122 @@ def binary_search(array, target):
 #     pizza_total_price = (i+1) * topping_price + dow_price
 #     pizaa_total_cal = dow_cal + new_topping_cal_lst[i]
 
+
+
+# def fibo(n):
+#     if n==0: return 0
+#     elif n==1: return 1
+#     else : 
+#         return fibo(n-1)+fibo(n-2)
+    
+
+# num=int(input('피보나치 수열 F(N)의 N값을 입력 : '))
+# print('F(',num,') = ',fibo(num))
+
+
+
+# def fibo(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else :
+#         return fibo(n-2) + fibo(n-1)
+    
+# print(fibo(int(input())))
+
+
+# n = int(input())
+
+# def cal(temp):
+#     if temp != 0:
+#         cal(temp-1)
+#         print(temp)
+#     else:
+#         return 0
+# cal(n)
+
+# n = int(input())
+
+# def cal(temp):
+#     if temp != 0:
+#         print(temp)
+#         cal(temp-1)
+#     else:
+#         return 0
+
+# cal(n)
+
+# m , n = map(int,input().split())
+
+# def cal(m,n):
+#     if m > n :
+#         return 0
+#     else:
+#         if m % 2 == 1:
+#             print(m)
+#             cal(m+2,n)
+#         else:
+#             cal(m+1,n)
+
+# cal(m,n)
+
+# import sys
+# sys.setrecursionlimit(1000000)
+
+# n = int(input())
+
+# def cal(temp):
+#     if temp == 0:
+#         return 0
+#     else:
+#         return temp + cal(temp-1)
+# print(cal(n))
+
+# n = int(input())
+
+# def cal(n):
+#     if n == 1:
+#         return 1
+#     else:
+#         return n * cal(n-1)
+
+# print(cal(n))
+
+# n = int(input())
+# def fibonacci(n):
+#     if n == 1 or n == 2:
+#         return 1
+#     else:
+#         return fibonacci(n-1) + fibonacci(n-2)
+
+# print(fibonacci(n))
+
+#1920 2진수 재귀
+# n = int(input())
+
+# def cal(n):
+#     if n == 0:
+#         return '0'
+#     elif n == 1:
+#         return '1'
+#     else:
+#         return cal(n // 2) + str(n % 2)
+
+# print(cal(n))
+
+
+# n = int(input())
+
+# def cal(n):
+#     print(n)
+#     if n == 1: 
+#         return 0
+#     elif n % 2 == 0:
+#         return cal(n // 2)
+#     elif n % 2 == 1:
+#         return cal(3 * n + 1)
+# cal(n)
+
+
+n =
