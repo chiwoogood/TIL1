@@ -673,4 +673,48 @@ def binary_search(array, target):
 # cal(n)
 
 
-n =
+# n = int(input())
+
+# def cal(n):
+#     if n % 2 == 0:
+#         cal(n // 2)
+#         print(n)
+#     elif n == 1:
+#         print(n)
+#         return 0
+#     elif n % 2 == 1:
+#         cal(n * 3 +1)
+#         print(n)
+# cal(n)
+
+# n = int(input())
+
+# def cal(n):
+#     if n == 0:
+#         return 0
+#     else:
+#         cal(n-1)
+#         print('*'*n)
+# cal(n)
+
+# n = int(input())
+# lst = [int(input()) for _ in range(n)]
+
+# def quick_sort(lst):
+#     if len(lst) == 0:
+#         return lst
+#     pivot = lst[len(lst)//2]
+#     start = [x for x in lst if x < pivot]
+#     middle = [x for x in lst if x == pivot]
+#     end = [x for x in lst if x > pivot]
+
+#     return quick_sort(start) + middle + quick_sort(end)
+
+# for i in quick_sort(lst):
+#     print(i)
+
+lst = [3, 6, 9]
+
+n = int(input())
+
+for i in range(n)
