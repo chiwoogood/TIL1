@@ -732,4 +732,98 @@ def binary_search(array, target):
 #     else:
 #         print('X' * temp, end=' ')
 
+# topping_count = int(input())
 
+# dow_price , topping_price = map(int,input().split())
+
+# dow_cal = int(input())
+
+# topping_cal = [int(input()) for x in range(topping_count)]
+
+# basic_dollar_per_cal = dow_cal / dow_price
+# dollar_per_cal = 0
+
+
+
+# def quick_sort(lst):
+#     if len(lst) <= 0:
+#         return lst
+    
+#     pivot = lst[len(lst)//2]
+
+#     start = [x for x in lst if x > pivot]
+#     middle = [x for x in lst if x == pivot]
+#     end = [x for x in lst if x < pivot]
+    
+#     return quick_sort(start) + middle + quick_sort(end)
+
+# sorted_topping_cal = quick_sort(topping_cal)
+# optimal_idx = 0
+# optimal_cal = 0
+# for i in range(len(sorted_topping_cal)):
+#     optimal_idx += 1
+
+#     optimal_dollar_per_cal = (dow_cal + sum(sorted_topping_cal[:optimal_idx])) / ((optimal_idx * topping_price) + dow_price)
+#     if optimal_dollar_per_cal > basic_dollar_per_cal:
+#         basic_dollar_per_cal = optimal_dollar_per_cal
+
+# print(int(basic_dollar_per_cal))
+
+
+#2진수 재귀
+
+# n = int(input())
+
+# def cal(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return cal(n//2) + str(n%2)
+    
+
+# n = int(input())
+
+# if n % 400 == 0 or (n % 4 == 0 and n % 100 !=0):
+#     print('Leap')
+# else:
+#     print('Normal')
+
+# m, n = map(int,input().split())
+
+# n -= 30
+# if n < 0:
+#     n += 60
+#     m -= 1
+#     if m < 0:
+#         m += 24
+
+# print(m, n)
+
+# n = input()
+# temp = 0
+# for i in n:
+#     temp+=1
+# print(temp)
+
+# lst = [int(input()) for x in range(5)]
+# print(max(lst))
+# print(min(lst))
+
+# n = int(input())
+
+# lst = [x for x in range(1,n+1)]
+
+# while len(lst) > 1:
+#     lst.remove(int(input()))
+
+# print(lst[0])
+
+n = int(input())
+
+lst = [[0 for _ in range(n)]for _ in range(n)]
+
+for i in range(n):
+    for j in range(n):
+        
