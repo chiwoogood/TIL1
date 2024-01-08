@@ -713,8 +713,23 @@ def binary_search(array, target):
 # for i in quick_sort(lst):
 #     print(i)
 
-lst = [3, 6, 9]
+# lst = [3, 6, 9]
 
-n = int(input())
+# n = int(input())
 
-for i in range(n)
+# for i in range(n)
+
+# n = int(input())
+# lst = ['3','6','9']
+# for i in range(1,n+1):
+#     temp = 0
+#     for j in str(i):
+#         if j in lst:
+#             temp +=1
+#             continue
+#     if temp == 0:
+#         print(i,end=' ')
+#     else:
+#         print('X' * temp, end=' ')
+
+
