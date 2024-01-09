@@ -820,10 +820,57 @@ def binary_search(array, target):
 
 # print(lst[0])
 
-n = int(input())
+# def gcd_cal(a,b):
+#     while b:
+#         a, b = b, a % b
+#     return a
 
-lst = [[0 for _ in range(n)]for _ in range(n)]
+# print(gcd_cal(33,66))
 
-for i in range(n):
-    for j in range(n):
-        
+# n = int(input())
+
+# def gcd_cal(a,b):
+#     while b:
+#         a, b = b, a % b
+#     return a
+
+# for i in range(n):
+#     lst = list(map(int,input().split()))
+#     gcd_lst = []
+#     for j in range(1,lst[0]+1): 
+#         for k in range(j+1,len(lst)): 
+#             gcd_lst.append(gcd_cal(lst[j],lst[k]))
+#     print(sum(gcd_lst))
+
+# n = int(input())
+
+# lst = [[0 for _ in range(1,20)] for _ in range(1,20)]
+
+# for i in range(n):
+#     x, y = map(int,input().split())
+#     x, y = (x + 1, y + 1) if x == 0 or y == 0 else : 
+
+# print(lst)
+
+# x = y = 1
+
+# ant_lst = [list(map(int,input().split())) for x in range(10)]
+
+# while True:
+    
+#     ant_lst[x][y] = 9
+
+
+#     if ant_lst[x][y] == 2:
+#         break
+
+#     if ant_lst[x+1][y] == 1:
+#         y += 1
+#         if y ==10:
+#             break
+#     elif ant_lst[x+1][y] == 0:
+#         x += 1 
+#         if x == 10:
+#             break
+
+# print(ant_lst)
