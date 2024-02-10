@@ -875,4 +875,16 @@ def binary_search(array, target):
 
 # print(ant_lst)
 
-# if
+#     if ant_lst[x][y] == 2:
+#         break
+
+#     if ant_lst[x+1][y] == 1:
+#         y += 1
+#         if y ==10:
+#             break
+#     elif ant_lst[x+1][y] == 0:
+#         x += 1 
+#         if x == 10:
+#             break
+
+# print(ant_lst)
